@@ -1,1 +1,13 @@
-hello world
+---
+title: test
+---
+
+<h1> Test </h1>
+
+{% for sketch in site.sketches %}
+  <div class="sketch">
+    {{sketch.content}}
+  </div>
+{% endfor %}
+
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>

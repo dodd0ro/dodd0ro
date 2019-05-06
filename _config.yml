@@ -1,0 +1,24 @@
+
+collections:
+  sketches:
+    
+name: dodd0ro
+
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "sketches"
+    values:
+      layout: "default"
+      x: 2
+  - scope:
+      path: ""
+    values:
+      layout: "default"
